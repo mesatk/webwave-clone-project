@@ -1,0 +1,28 @@
+/* Slider.css */
+.slider-container {
+    max-width: 800px; /* Adjust based on your needs */
+    margin: auto; /* Centers the slider */
+    margin-bottom: auto;
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the same area */
+  }
+  
+  .carousel-indicators {
+    justify-content: center;
+    bottom: 10px; /* Position of the pagination */
+  }
+  
+  .carousel-indicators li {
+    background-color: #333; /* Custom bullet color */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .carousel-indicators .active {
+    background-color: #00FF00; /* Custom active bullet color */
+  }

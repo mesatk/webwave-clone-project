@@ -1,0 +1,31 @@
+/* Navbar için genel stiller */
+.navbar {
+  padding: 1rem 3rem;
+  background-color: #f8f9fa;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* Diğer içeriklerin üstünde kalmasını sağlar */
+}
+
+/* Logo resminin boyutu */
+.navbar-brand img {
+  height: 20px;
+}
+
+/* Arama çubuğu stilleri */
+.input-group {
+  max-width: 300px;
+  margin-right: 1rem;
+}
+
+/* Dropdown menü stilleri */
+.dropdown-menu {
+  min-width: 200px;
+}
+
+/* Giriş/Üye ol butonu stili */
+.custom-login-button {
+  background-color: #02d076;
+  border-color: #02d076;
+}
